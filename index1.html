@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Asserts/Css/style1.css">
+    <title>Quiz Page</title>
+</head>
+<body>
+   <div>
+       <h2 style="font-weight: bold; text-align: center;">Practice Quiz for Law</h2>
+       <p style="font-weight: lighter; text-align: center;">No. of Questions= 5</p>
+       <h3 style="font-weight: bold; text-align: center;">Instructions: To answer a question, click the button in front of your choice. 
+           A response will appear in the window below the question to let you know if you are correct. Goodluck!</h3>
+           <!-- <button><a href="index0.html"></a>Home</button> -->
+           <!-- <a href="index0.html"><button>Home</button></a> -->
+   </div>
+   <div id="quiz1">
+       <h4>Question 1</h4>
+       <p class="p1">In what kinds of societies are laws usually written down formally?</p>
+       <ul>
+        <li><input id="a" type="radio" name="1" value="large">large-scale societies</li>
+        <li><input id= "a1" type="radio" name="1" value="small">small-scale societies</li>
+        <li><input id="a2" type="radio" name="1" value="both">both of the above</li>
+        <li><input id="a3" type="radio" name="1" value="none">none of the above</li>
+     </ul>
+     <!-- <div id="fact"></div> -->
+     <Button class="btn" onclick="play()">CHECK</Button> <span id="h1" style="font-size: 20px;"></span>
+     
+     <hr>
+     <h4>Question 2</h4>
+     <p class="p1">Which of the following will be a positive sanction?</p>
+     <ul>
+        <li><input id="b" type="radio" name="2" value="good">receiving good grades in school</li>
+        <li><input id="b1" type="radio" name="2" value="promoted">being promoted in the military</li>
+        <li><input id="b2" type="radio" name="2" value="allowed">being allowed to go to your religions heaven</li>
+        <li><input id="b3" type="radio" name="2" value="all">all of the above</li>
+     </ul>
+     
+     <Button class="btn" onclick="play1()">CHECK</Button><span id="h2" style="font-size: 20px;"></span>
+     <hr>
+
+         <h4>Question 3</h4>
+         <p class="p1">Which of the following are important parts of social control in some small non-western societies?</p>
+         <ul>
+            <li><input id="c" type="radio" name="3" value="forced">forced use of hallucinogenic drugs</li>
+            <li><input  id="c1" type="radio" name="3" value="threat">threat of witchcraft</li>
+            <li><input  id="c2" type="radio" name="3" value="both">both of the above</li>
+            <li><input  id="c3" type="radio" name="3" value="neither">neither of the above</li>
+         </ul>
+         
+         <Button class="btn" onclick="play2()">CHECK</Button> <span id="h3" style="font-size: 20px;"></span>
+         <hr>
+
+         <h4>Question 4</h4>
+         <p class="p1">What kinds of legal concerns are common in societies that have pedestrian foraging or simple horticultural 
+             subsistence bases?
+         </p>
+         <ul>
+            <li><input id="d" type="radio" name="4" value="failure">failure to share food</li>
+            <li><input  id="d1" type="radio" name="4" value="theft">theft of property</li>
+            <li><input  id="d2" type="radio" name="4" value="fights">fights resulting from competition for the same mate</li>
+            <li><input  id="d3" type="radio" name="4" value="both">a and c</li>
+         </ul>
+
+         <Button class="btn" onclick="play3()">CHECK</Button> <span id="h4" style="font-size: 20px;"></span>
+         <hr>
+         <h4>Question 5</h4>
+         <p class="p1">Juries around the world commonly are expected to reflect the judgement of________?</p>
+         <ul>
+            <li><input id="e" type="radio" name="5" value="large">a reasonable man</li>
+            <li><input id="e1" type="radio" name="5" value="small">a reasonable person</li>
+            <li><input  id="e2" type="radio" name="5" value="both">the political elite within society</li>
+            <li><input id="e3" type="radio" name="5" value="none">none of the above</li>
+         </ul>
+         
+         <Button class="btn" onclick="play4()">CHECK</Button> <span id="h5" style="font-size: 20px;"></span>
+         <hr>
+     </div>
+       <div class="footer">
+           <h1 id="incorrect"></h1>
+           <h1 id="correct"></h1>
+           <h1 id="total"></h1>
+          <br><br>
+          <button type="button" class="btn-submit" onclick="analyse();">Submit</button>
+          <br><br>
+   </div>
+   <div>
+    <a href="index0.html"><button type="button" class="btn-submit">Home</button></a>
+    <!-- <div id="over"></div> -->
+    <br><br>
+   </div>
+    
+
+
+
+    <script src="Js/index1.js"></script>
+    <!-- <script src="Js/index0.js"></script> -->
+</body>
+</html>
