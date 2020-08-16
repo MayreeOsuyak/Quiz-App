@@ -4,7 +4,7 @@ body{
     background-image:url(../Img/law22.jpg);
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 #nav{
     color:oldlace;
